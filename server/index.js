@@ -27,11 +27,3 @@ mongoose.connect(uri,{
 })
 .then(()=>console.log('Mongodb connection established'))
 .catch((error)=>console.log('mongodb error (nyanlin identified) :', error.message));
-
-
-// mongoose.connect(uri,{
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-// })
-// .then(()=> console.log("MongoDb connection established"))
-// .catch((error)=> console.log('mongodb error (nyanlin identified) :',error.message));
